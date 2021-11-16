@@ -21,9 +21,9 @@ class BinaryTree(object):
         as they are visited in
         a pre-order traversal."""
         unvisitedNodes = [self.root]
-        lstvalues = []
-        self.preorder_print(self.root,lstvalues)
-        return "-".join(lstvalues)
+        values = []
+        self.preorder_print(self.root,values)
+        return "-".join(values)
 
     def preorder_search(self, start, find_val):
         """Helper method - use this to create a 
