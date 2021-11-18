@@ -63,8 +63,8 @@ def IntersectionCountHash(arr1, arr2):
     return count
 
 
-a1 = TestHelper.CreateRandomIntListWithoutDuplicates(50000, 0, 1000000)
-a2 = TestHelper.CreateRandomIntListWithoutDuplicates(40000, 0, 1000000)
+a1 = TestHelper.GenerateRandomIntListWithoutDuplicates(50000, 0, 1000000)
+a2 = TestHelper.GenerateRandomIntListWithoutDuplicates(40000, 0, 1000000)
 
 print("solution 1")
 t1 = datetime.now()
