@@ -1,4 +1,4 @@
-from HRankGraph import Graph
+from ShortestReach import Graph
 inputFile =open('SampleData.txt','r')
 t = int(inputFile.readline())
 for i in range(t):
